@@ -1,0 +1,125 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+.contenedor{
+	margin: 0 15px;
+}
+.hijo1{
+	display: flex;
+	gap: 10px;
+	margin-top: 25px;
+}
+.hijo1 .busq{
+	width: 300px;
+	background-color: lightgray;
+	border: 0;
+	height: 40px;
+	font-size: 20px;
+	text-decoration-color: #0D2D3A;
+	border-radius: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.busq::placeholder{
+	color: black;
+}
+.contenedor h2{
+	color: #0D2D3A;
+}
+.contenedor .botones ul li{
+	list-style: none;
+}
+.contenedor .botones .boton a{
+	text-decoration: none;
+	color:black;
+	font-size: 12px;
+	font-weight: 600;
+}
+.contenedor .botones .boton{
+	width: 80px;
+	border: 2px solid #283048;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+.contenedor .botones ul{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+	overflow: auto;
+	gap: 10px;
+}
+/*.botones{
+	width: 100%;
+}*/
+.botones .boton:hover ,.botones .boton a:hover{
+	background-color: #283048;
+	color: white;
+}
+.contenedor .text1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabaña{
+	width: 100%;
+}
+
+.contenedor .text1 h4{
+	margin: 0;
+}
+.text1 .t1{
+	font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #0D2D3A;
+}
+.text1 .t2{
+	font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+color: rgba(30, 30, 30, 0.74);
+}
+.conttexto .text2{
+	display: flex;
+	height: 19px;
+	width: 100%;
+	align-items: baseline;
+	color: #0983B5;
+	gap: 2px;
+}
+.conttexto .mapita{
+	width: 6%;
+	height: 83%;
+}
+.conttexto .text2 h5{
+	margin: 0;
+	font-weight: 500;
+}
+
+
+.toolbar{ /*Barra principal*/
+	position: absolute;
+	align-items: center;
+	justify-content: space-evenly;
+	display: flex;
+	align-self: flex-end;
+	width: 100%;
+	height: 84px;
+	background: #F1F3F5;
+	bottom: 0;
+}
+.toolbar a:hover{
+	filter: hue-rotate(40deg);
+}
+
+@media (min-width:700px){
+	.contenedor{
+		/*display:none;*/
+	}
+
+}
